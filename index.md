@@ -15,7 +15,7 @@ nav_order: 1
 
 ### 📸 練習 1：插入圖片
 Markdown 插入圖片的語法很直覺。這裡有一隻來自網路的可愛貓咪圖片：
-![可愛的小貓](https://cataas.com/cat/starts/with/a?position=center)
+![可愛的小貓](https://cataas.com/cat)
 
 ### 🔗 練習 2：超連結
 想看看這個網站的原始碼嗎？歡迎參觀我的 [GitHub Repository](https://github.com/vicmeng-jpg/VIC)！
@@ -30,6 +30,28 @@ def welcome_message(guest_name):
 
 print(welcome_message("開發者"))
 ```
+
+## 🎯 學習目標與計畫進度
+
+我目前的學習目標是：**打造 GitHub 個人部落格與學習 Markdown**，並且一步步建立自己的學習網站。以下是我的計畫達成進度：
+
+### 準備工作
+- ✅ 定義 GitHub Repository 位置
+- ✅ 將專案 Clone 到本機開發環境
+
+### 階段一：初見 GitHub Pages 與主題
+- ✅ 1-1: 認識與修改網站大腦 `_config.yml`
+- ✅ Git 挑戰：首次 Commit 並推送建立靜態網站
+
+### 階段二：精通 Markdown 語法
+- ✅ 2-1: 新增第一篇日誌 (練習標題與清單)
+- ✅ 2-2: 將預設首頁替換 (練習圖片、超連結與程式碼區塊)
+- ✅ Git 挑戰：將新增的日誌與修改提交並推送到 GitHub
+
+### 階段三：深入 just-the-docs 功能
+- ✅ 3-1: 了解 YAML Front Matter 概念 (`---` 區塊)
+- ✅ 3-2: 學習使用 `parent` 與 `nav_order` 整理左側目錄選單
+- ✅ Git 挑戰：完成版面整理並同步至 GitHub
 
 ---
 
