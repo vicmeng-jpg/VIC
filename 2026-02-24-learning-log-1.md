@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 2026-02-24 第一天：使用 GitHub Pages 打造個人部落格
+parent: 我的學習日誌
 nav_order: -20260224
 ---
 
