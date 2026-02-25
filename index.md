@@ -48,7 +48,7 @@ print(welcome_message("開發者"))
 - ✅ 2-2: 將預設首頁替換 (練習圖片、超連結與程式碼區塊)
 - ✅ Git 挑戰：將新增的日誌與修改提交並推送到 GitHub
 
-### 階段三：深入 just-the-docs 功能
+## 階段三：深入 just-the-docs 功能
 - ✅ 3-1: 了解 YAML Front Matter 概念 (`---` 區塊)
 - ✅ 3-2: 學習使用 `parent` 與 `nav_order` 整理左側目錄選單
 - ✅ Git 挑戰：完成版面整理並同步至 GitHub
