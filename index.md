@@ -1,35 +1,36 @@
 ---
-title: Home
+title: 首頁
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# 歡迎來到 VIC 的學習基地 🚀
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+這是我用 [GitHub Pages](https://pages.github.com/) 建立的個人網站，主要用來記錄我的程式學習歷程與各種技術筆記。
 
-More specifically, the created site:
+## 關於我
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+嗨！我現在正在探索這個神奇的程式世界！
+在這裡，你不僅能看到我每天的學習心得，也能看到我練習 **Markdown** 的痕跡。
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### 📸 練習 1：插入圖片
+Markdown 插入圖片的語法很直覺。這裡有一隻來自網路的可愛貓咪圖片：
+![可愛的小貓](https://cataas.com/cat/starts/with/a?position=center)
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### 🔗 練習 2：超連結
+想看看這個網站的原始碼嗎？歡迎參觀我的 [GitHub Repository](https://github.com/vicmeng-jpg/VIC)！
 
-To get started with creating a site, simply:
+### 💻 練習 3：程式碼區塊
+我最近正在練習寫 Python，這是我寫的第一個函式：
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+```python
+def welcome_message(guest_name):
+    """產生專屬歡迎詞的函式"""
+    return f"Hello, {guest_name}! 歡迎來到我的部落格！"
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+print(welcome_message("開發者"))
+```
 
-----
+---
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+*💡 提示：您可以透過左側的導覽列，觀看我最新發佈的學習日誌喔！*
