@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Markdown 進階語法練習
+title: 2026-02-25 Markdown 進階語法練習
 parent: 我的學習日誌
 nav_order: -20260225
 ---
