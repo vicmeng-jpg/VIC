@@ -27,7 +27,7 @@ nav_order: -20260226
 您可以邊聽這段音樂，邊看上面的畫作：
 
 <audio controls>
-  <source src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg" type="audio/ogg">
+  <source src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Elgar%3B_Enigma_variations%2C_Theme_IX._Nimrod.ogg" type="audio/ogg">
   您的瀏覽器不支援 HTML5 音樂播放器，請直接前往 <a href="https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg">Wikimedia Commons</a> 聆聽。
 </audio>
 
