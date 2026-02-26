@@ -5,5 +5,9 @@ color_scheme: dark
 
 url: https://vicmeng-jpg.github.io/VIC
 
+footer_content: |
+  <p>「完美是古老鐘擺的蘚苔，唯有那帶裂痕的、過度張揚的熵增，才是靈魂呼吸時吞吐出的代碼塵埃。」</p>
+  <p>&copy; 2026 VIC. All rights reserved.</p>
+
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
