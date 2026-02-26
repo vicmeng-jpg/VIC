@@ -1,8 +1,8 @@
 ---
 title: "日誌 4：階段四 - 打造專屬風格與客製化設定"
 layout: default
-parent: 學習日誌
-nav_order: 4
+parent: 我的學習日誌
+nav_order: -20260226
 ---
 
 # 學習日誌：階段四 - 打造專屬風格與客製化設定
