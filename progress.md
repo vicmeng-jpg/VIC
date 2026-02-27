@@ -10,7 +10,8 @@
 - [x] 建立「生活心得」分類的首頁 (`life-reflections-index.md` -> `title: life`)
 - [x] 建立 `life/` 資料夾管理文章
 - [x] 完成首篇測試文章：結合透納畫作與艾爾加音樂的賞析
-    - *💡 待研究：尋找在網頁上穩定嵌入/播放 Markdown 音訊檔 (如 `.ogg` 或 `.mp3`) 的最佳解法，目前暫以超連結代替。*
+    - *✅ 已解決：從 Wikimedia 下載 `<audio>` 支援的 `.ogg` 音訊檔至 `assets/` 資料夾，並已成功嵌入文章與標註 Public Domain。*
+- [x] 撰寫學習日誌：「使用 PowerShell 與 MediaWiki API 抓取維基資源」
 
 ## 階段五：網站內容完善與結業式 (待進行)
 - [ ] 建立專屬的「關於我 (About)」頁面

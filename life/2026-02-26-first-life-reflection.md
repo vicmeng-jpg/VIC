@@ -26,7 +26,15 @@ nav_order: -20260226
 
 您可以邊聽這段音樂，邊看上面的畫作：
 
-[🎧 點我前往維基共享資源聆聽：《謎語變奏曲》第九變奏〈尼姆羅德〉 (Elgar; Enigma variations, Theme IX. Nimrod.ogg)](https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg)
+<figure>
+  <audio controls preload="metadata" style="width: 100%; max-width: 400px;">
+    <source src="../assets/Nimrod.ogg" type="audio/ogg">
+    您的瀏覽器不支援 audio 標籤。
+  </audio>
+  <figcaption style="font-size: 0.9em; color: #666;">
+    音樂來源：<a href="https://commons.wikimedia.org/wiki/File:Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg" target="_blank" rel="noopener">Wikimedia Commons</a> (Public Domain)
+  </figcaption>
+</figure>
 
 ## 結合這兩件作品的心得
 

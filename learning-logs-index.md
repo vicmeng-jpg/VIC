@@ -14,3 +14,4 @@ has_children: true
 - Python 和開發工具的初體驗
 - 用 GitHub Pages 打造個人網站的過程
 - 各種好用的 Markdown 語法練習
+- 用 PowerShell 與 MediaWiki API 抓取維基資源
