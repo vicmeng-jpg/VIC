@@ -8,7 +8,11 @@ url: https://vicmeng-jpg.github.io/VIC
 footer_content: |
   <p style="font-size: 14px; color: #FF5733; font-style: italic;">「完美是古老鐘擺的蘚苔，唯有那帶裂痕的、過度張揚的熵增，才是靈魂呼吸時吞吐出的代碼塵埃。」</p>
   <p style="font-size: 0.6em; color: #a9a9b3; font-style: italic;">Perfection is moss on a weary pendulum; only cracked and riotous entropy is the soul’s exhaled stardust of code.</p>
-  <p style="font-size: 12px; color: gray;">&copy; 2026 VIC. All rights reserved.</p>
+  <p style="font-size: 12px; color: gray;">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />
+    本站內容採用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a> 授權。<br />
+    &copy; 2026 VIC. All rights reserved.
+  </p>
 
 favicon_ico: "/assets/images/favicon.png"
 
