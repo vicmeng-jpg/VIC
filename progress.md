@@ -23,4 +23,5 @@
 - [x] 建立 `projects/ship-crawler` 資料夾存放獨立專案
 - [x] 整合「船員評估試題 智慧批次爬蟲系統」(`crawler.py`)
 - [x] 補齊專案說明文檔 (`README.md` 與 `requirements.txt`)
+- [x] 撰寫學習日誌：「實戰專案：自動化船員評估試題爬蟲開發心得」
 - [x] 提交 Commit 並發布至 GitHub
