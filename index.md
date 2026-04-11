@@ -8,7 +8,9 @@ nav_order: 1
 
 ![我的專屬 Banner](assets/images/banner.png)
 
-這是我用 [GitHub Pages](https://pages.github.com/) 建立的個人網站，主要用來記錄我的程式學習歷程與各種技術筆記。
+🔗 **本站網址：[https://vicmeng-jpg.github.io/VIC/](https://vicmeng-jpg.github.io/VIC/)**
+
+這是我用 [GitHub Pages](https://pages.github.com/) 建立的個人網站。這裡不僅記錄了我的程式學習歷程，更是我存放**「海事國考大數據戰略」**與**「機艙實務筆記」**的終極軍火庫。
 
 ## 關於我
 
@@ -63,7 +65,13 @@ print(welcome_message("開發者"))
 ## 階段五：網站內容完善與結業式
 - ✅ 5-1: 建立專屬的「關於我 (About)」頁面
 - ✅ 5-2: 統整所有學習日誌，撰寫最終心得
-- ⬜ Git 挑戰：最後的總體檢、Commit 與對外發佈宣告！
+
+## 階段六：航海國考大數據戰略 (Data-Driven Maritime Prep)
+- ✅ 6-1: 建立「海事心得專區」，收錄管輪國考三大科目秘笈
+- ✅ 6-2: 發表四步 Gap Analysis 落差比對與深度擊破實戰框架
+- ⬜ 6-3: 啟動 Micro-Sniper 協議，持續發布機艙防呆與排故攻略
+
+---
 
 ---
 
