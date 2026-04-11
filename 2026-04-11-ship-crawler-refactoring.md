@@ -2,7 +2,7 @@
 layout: default
 title: "重構之戰：將爬蟲腳本升格為專業軟體"
 parent: "我的學習日誌"
-nav_order: 6
+nav_order: -20260411.2
 ---
 
 # 🚀 學習日誌：從腳本到軟體的重構之路 (The Refactoring Journey)

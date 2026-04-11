@@ -2,7 +2,7 @@
 layout: default
 title: "情報降維打擊：海事國考的四步 Gap Analysis 實戰框架"
 parent: 海事心得
-nav_order: 2
+nav_order: -20260412.1
 ---
 
 # 📊 情報降維打擊：海事國考的四步 Gap Analysis 實戰框架

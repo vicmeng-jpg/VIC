@@ -2,7 +2,7 @@
 layout: default
 title: "數據驅動的航海國考戰略：破解管輪適任測驗"
 parent: 海事心得
-nav_order: 1
+nav_order: -20260411.3
 ---
 
 # 🚢 數據驅動的航海國考戰略：破解管輪適任測驗

@@ -14,3 +14,9 @@ _site/
 .bundle/
 vendor/
 .idea/
+
+# Ignore binary archives and PDFs (for Maritime Exam Vault)
+*.pdf
+*.rar
+*.zip
+*.7z
