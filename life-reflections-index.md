@@ -12,5 +12,6 @@ has_children: true
 您可以從左側的選單展開，看看我最近分享了哪些有趣的生活故事！
 
 目前分享的話題包含：
+- [🧪 飲料實驗室 (Drink Lab)](./life/drink-lab/index.md)
 - 當透納與艾爾加相遇 (The Fighting Temeraire & Nimrod)
 - 【看懂科技泡沫】AI Washing：資本盛宴與勞工的代價
