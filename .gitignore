@@ -20,3 +20,7 @@ vendor/
 *.rar
 *.zip
 *.7z
+
+# --- PRIVACY PROTECTION ---
+# Ignore personal administrative documents (ID scans, Handbooks, Medical records)
+projects/seafarer-revalidation/01_Admin_換證文件/

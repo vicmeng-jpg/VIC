@@ -18,3 +18,14 @@ favicon_ico: "/assets/images/favicon.png"
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# --- PRIVACY EXCLUSION ---
+exclude:
+  - projects/seafarer-revalidation/01_Admin_換證文件/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
