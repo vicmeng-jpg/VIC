@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Vlog：建立我的輪機知識預處理流水線"
-parent: Learning Logs
-nav_order: -20260413
+title: "建立我的輪機知識預處理流水線"
+parent: Seafarer Revalidation (一等管輪換證)
+nav_order: 4
 ---
 
 # ⚓ Vlog：從數位荒漠到知識綠洲 —— 輪機預處理流水線的誕生

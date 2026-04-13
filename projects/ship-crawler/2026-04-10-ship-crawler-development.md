@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "實戰專案：自動化船員評估試題爬蟲開發心得"
-parent: 我的學習日誌
-nav_order: -20260410
+title: "Python 爬蟲開發實錄：從自動化到穩定架構"
+parent: Ship Exam Crawler
+nav_order: 1
 ---
 
 # 實戰專案：自動化船員評估試題爬蟲開發心得

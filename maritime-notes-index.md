@@ -14,6 +14,6 @@ has_children: true
 您可以從左側選單展開，查看我最新的進度與備考教學：
 
 目前分享的文章包含：
-- 數據驅動的航海國考戰略：破解管輪適任測驗
-- 情報降維打擊：海事國考的四步 Gap Analysis 實戰框架
-- 後設學習與深度擊破：從知識地圖到實戰攻略
+- [數據驅動的航海國考戰略：破解管輪適任測驗](./projects/seafarer-revalidation/2026-04-11-maritime-exam-strategy.md)
+- [情報降維打擊：海事國考的四步 Gap Analysis 實戰框架](./projects/seafarer-revalidation/2026-04-12-gap-analysis-framework.md)
+- [後設學習與深度擊破：從知識地圖到實戰攻略](./projects/seafarer-revalidation/2026-04-12-micro-sniper-protocol.md)

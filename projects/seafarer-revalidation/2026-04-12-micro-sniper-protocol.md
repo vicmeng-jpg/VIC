@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "後設學習與深度擊破：從知識地圖到實戰攻略"
-parent: 海事心得
-nav_order: -20260412.2
+parent: Seafarer Revalidation (一等管輪換證)
+nav_order: 3
 ---
 
 # 🎯 後設學習與深度擊破：從知識地圖到實戰攻略

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 飲料實驗室 (Drink Lab)
-parent: Life Reflections
-nav_order: 1
+title: Drink Lab (飲料實驗室)
+parent: Projects (專案中心)
+nav_order: 3
 has_children: true
 ---
 

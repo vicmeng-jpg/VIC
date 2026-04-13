@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "重構之戰：將爬蟲腳本升格為專業軟體"
-parent: "我的學習日誌"
-nav_order: -20260411.2
+title: "爬蟲重構之戰：從腳本到專業軟體"
+parent: Ship Exam Crawler
+nav_order: 2
 ---
 
 # 🚀 學習日誌：從腳本到軟體的重構之路 (The Refactoring Journey)
