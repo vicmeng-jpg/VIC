@@ -1,12 +1,4 @@
----
-layout: default
-title: Ship Exam Crawler
-parent: Projects (專案中心)
-nav_order: 1
----
-
 # 船員評估試題 智慧批次爬蟲系統
-
 
 這是一個使用 Python 撰寫的自動化爬蟲工具，可以進入[中華海員總工會官方網站](https://www.ncsu.org.tw/training4.php)自動獲取歷年梯次的「船員評估試題」。
 

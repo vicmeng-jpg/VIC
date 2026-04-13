@@ -1,12 +1,4 @@
----
-layout: default
-title: Seafarer Revalidation (一等管輪換證)
-parent: Projects (專案中心)
-nav_order: 4
----
-
 # 航海職涯發展與適任證書重新生效專案 (Project Seafarer Revalidation)
-
 
 這是您專屬的「大管輪／船副」職涯戰情室資料夾。為確保未來大量的法規、考題與證件影本不混亂，本助理已將資料夾劃分為四大模組，請嚴格按照以下分類存放檔案：
 

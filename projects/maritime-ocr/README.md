@@ -1,10 +1,3 @@
----
-layout: default
-title: Maritime OCR Pipeline
-parent: Projects (專案中心)
-nav_order: 2
----
-
 # 📄 Maritime OCR Pipeline (海事知識預處理管線)
 
 本專案旨在解決海軍工程、輪機專業書籍（多為大型簡體 PDF）的數位化與知識檢索問題。透過自動化腳本，將 PDF 轉換為結構良好的繁體 Markdown 文件，以便匯入 NotebookLM 或進行 RAG 分析。
