@@ -18,10 +18,12 @@ has_children: true
 ---
 
 ## 📝 相關開發日誌
-在本目錄下，我也記錄了開發這個爬蟲時的心路歷程與遇到的技術挑戰：
+本專案的開發心路歷程與遇到的技術挑戰，已統一收錄於：
 
-1. [Python 爬蟲開發實錄：從自動化到穩定架構](./2026-04-10-ship-crawler-development.md)
-2. [爬蟲重構之戰：從腳本到專業軟體](./2026-04-11-ship-crawler-refactoring.md)
+👉 **[專案開發日誌 (Vlogs)](../vlogs/index.md)**
+
+1. [Python 爬蟲開發實錄：從自動化到穩定架構](../vlogs/2026-04-10-ship-crawler-development.md)
+2. [爬蟲代碼重構：提升系統穩定性與容錯機制](../vlogs/2026-04-11-ship-crawler-refactoring.md)
 
 ---
 

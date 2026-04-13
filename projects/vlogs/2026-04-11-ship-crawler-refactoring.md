@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "爬蟲重構之戰：從腳本到專業軟體"
-parent: Ship Exam Crawler
+title: "爬蟲代碼重構：提升系統穩定性與容錯機制"
+parent: "專案開發日誌 (Vlogs)"
 nav_order: 2
 ---
 

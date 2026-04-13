@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "建立我的輪機知識預處理流水線"
-parent: Seafarer Revalidation (一等管輪換證)
+title: "⚓ Vlog：建立我的輪機知識預處理流水線"
+parent: "專案開發日誌 (Vlogs)"
 nav_order: 4
 ---
 

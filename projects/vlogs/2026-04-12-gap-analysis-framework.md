@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "情報降維打擊：海事國考的四步 Gap Analysis 實戰框架"
-parent: Seafarer Revalidation (一等管輪換證)
-nav_order: 2
+title: "🎯 專業工程師策略：Gap Analysis 框架建置"
+parent: "專案開發日誌 (Vlogs)"
+nav_order: 5
 ---
 
 # 📊 情報降維打擊：海事國考的四步 Gap Analysis 實戰框架

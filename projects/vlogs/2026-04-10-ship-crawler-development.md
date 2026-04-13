@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Python 爬蟲開發實錄：從自動化到穩定架構"
-parent: Ship Exam Crawler
+parent: "專案開發日誌 (Vlogs)"
 nav_order: 1
 ---
 

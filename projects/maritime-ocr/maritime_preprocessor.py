@@ -43,7 +43,11 @@ class MaritimePreprocessor:
         return toc
 
     def process_pdf(self, pdf_path, output_root):
+        # Sanitize filename to avoid encoding issues with CJK
         book_name = Path(pdf_path).stem
+        # Clean the name: only alphanumeric, underscores, hyphens, and CJK characters
+        book_name = re.sub(r'[^\w\s\-\.\u4e00-\u9fff]', '_', book_name).strip()
+        
         book_output = Path(output_root) / book_name
         image_output = book_output / "assets"
         os.makedirs(image_output, exist_ok=True)
@@ -51,18 +55,44 @@ class MaritimePreprocessor:
         print(f"[*] Processing: {book_name}")
         
         # 1. Extract TOC for chapter awareness
-        toc = self.extract_toc(pdf_path)
+        try:
+            toc = self.extract_toc(pdf_path)
+            print(f"[+] TOC found ({len(toc)} items)")
+        except Exception as e:
+            print(f"[!] TOC extraction failed (non-critical): {e}")
         
         # 2. Extract entire MD content using pymupdf4llm
-        # Note: In a production script, we might extract page-by-page to keep memory low,
-        # but for NotebookLM optimization, we'll process chunks or the whole thing.
-        print("[*] Extracting Markdown and Images...")
-        md_text = pymupdf4llm.to_markdown(
-            pdf_path, 
-            write_images=True, 
-            image_path=str(image_output),
-            image_format="png"
-        )
+        # We tune parameters to avoid aggressive table grouping that skips paragraphs
+        print("[*] Extracting Markdown and Images (High-Fidelity Mode)...")
+        try:
+            # Using custom extraction parameters to favor text flow
+            md_text = pymupdf4llm.to_markdown(
+                pdf_path, 
+                write_images=True, 
+                image_path=str(image_output),
+                image_format="png",
+                show_progress=False
+            )
+            
+            # If the MD text is suspiciously small, try a more aggressive 'Text-Only' extraction
+            # for paragraphs as a fallback.
+            if len(md_text) < 1000:
+                print("[!] Result seems too small. Retrying with 'Table-Disabled' mode...")
+                md_text = pymupdf4llm.to_markdown(
+                    pdf_path,
+                    write_images=True,
+                    image_path=str(image_output),
+                    image_format="png",
+                    # Some versions support layout=False or specific table exclusion
+                )
+            
+            print(f"[+] Extracted MD length: {len(md_text)} bytes")
+            if len(md_text) < 500:
+                print("[WARNING] Extracted text is unusually short. Please check if OCR was successful.")
+                
+        except Exception as e:
+            print(f"[ERROR] Markdown extraction failed: {e}")
+            return None
         
         # 3. Perform S2T Conversion
         print("[*] Performing S2T Conversion with Custom Dictionary...")
@@ -82,8 +112,8 @@ if __name__ == "__main__":
     preprocessor = MaritimePreprocessor(dict_file)
     
     # Ideally, scan a 'input' folder
-    input_dir = "../inbox"
-    output_dir = "../processed"
+    input_dir = "./inbox"
+    output_dir = "./processed"
     
     if not os.path.exists(input_dir):
         os.makedirs(input_dir)
